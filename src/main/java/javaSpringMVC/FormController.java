@@ -23,7 +23,7 @@ public class FormController {
 	   System.out.println("This is loadform resolver!!");
 	   return "form1";
    }
-	/*
+    /*
 	 * @RequestMapping(path="/processform",method=RequestMethod.POST) public String
 	 * processForm(HttpServletRequest req) {
 	 * System.out.println("This is processForm resolver!!");
@@ -67,5 +67,4 @@ public class FormController {
 	   model.addAttribute("Arunendra","Wellcome to our world!!");
 	   System.out.print("@ModelAttribute on method...");
    }
-   
 }
